@@ -1,0 +1,25 @@
+p {
+    border: 1px solid white;
+    width: 90%;
+    font-size: larger;
+    padding: 15px;
+    margin: 20px auto;
+
+}
+
+.white-text {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+

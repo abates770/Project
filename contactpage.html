@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Page</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+            </div>
+            <style>
+                body{
+                    background-image: url(white-background.webp);
+                    border-style: solid;
+                    border-color: coral;
+                    text-align: center;
+                    margin: 15px;
+                    padding: 5px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: larger;
+                    border-spacing: 10px;
+                }
+            </style>
+
+            <form method="GET" action="https://localhost:3000/processform">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" />
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" />
+                </div>
+                <p />
+                <div>
+                    <div>Type of truck needed</div>
+                <label for="dry vans">Dry Vans</label>
+                <input type="checkbox" id="Dry Vans" />
+                <label for="Flat Beds">Flat Bed</label>
+                <input type="checkbox" id="Flat Bed" />
+                <label for="Dump Trucks">Dump Truck</label>
+                <input type="checkbox" id="Dump Truck" />
+                <label for="Tankers">Tanker</label>
+                <input type="checkbox" id="Tanker" />
+                </div>
+                <p />
+                <div>
+                    <div>Information about load</div>
+                    <textarea id="Info" name="Load INformation" row="5" cols="5"></textarea>
+                </div>
+                <p />
+                <input type="submit" value="Send">
+            </form>
+</body>
+</html>
